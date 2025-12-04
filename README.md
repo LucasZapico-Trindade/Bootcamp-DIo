@@ -85,16 +85,6 @@ Executa saques seguindo todas as regras do sistema.
 
 Exibe as movimentações e saldos da conta.
 
-💾 Variáveis do Sistema
-Variável	Função
-saldo	Saldo inicial da conta
-limite	Limite máximo por saque
-historico	Extrato de transações
-numero_saques	Quantidade de saques feitos
-LIMITE_SAQUES	Limite diário de saques
-usuarios	Lista de usuários cadastrados
-contas	Lista de contas criadas
-AGENCIA	Agência padrão
 ▶️ Como Executar
 
 Certifique-se de ter o Python instalado.
