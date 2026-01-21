@@ -1,1 +1,0 @@
-print("usuarios cadastrados:", usuarios)
