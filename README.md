@@ -1,6 +1,6 @@
 💰 Sistema Bancário em Python
 
-Projeto desenvolvido como parte de desafio educacional, com o objetivo de aplicar na prática conceitos fundamentais e intermediários da linguagem Python, simulando um sistema bancário simples via terminal.
+Projeto desenvolvido como parte de um desafio educacional, com o objetivo de aplicar na prática conceitos fundamentais e intermediários da linguagem Python, simulando um sistema bancário simples via terminal.
 
 📌 Descrição do Desafio
 
@@ -9,34 +9,50 @@ Criar um sistema bancário capaz de realizar operações básicas como depósito
 🎯 Objetivos de Aprendizado
 
 Aplicar lógica de programação em Python
+
 Trabalhar com funções e controle de fluxo
+
 Utilizar decoradores para registrar transações
+
 Implementar geradores para relatórios de extrato
+
 Criar iteradores personalizados
+
 Manipular estruturas de dados (listas e dicionários)
+
 Simular regras de negócio de um sistema bancário
 
 ⚙️ Funcionalidades Implementadas
 
 ✅ Criar usuário
+
 ✅ Criar conta corrente vinculada a um usuário
+
 ✅ Listar contas cadastradas
+
 ✅ Realizar depósitos
+
 ✅ Realizar saques com limite diário
+
 ✅ Visualizar extrato bancário
+
 ✅ Filtrar extrato por tipo de transação (saque ou depósito)
 
 📜 Regras de Negócio
 💸 Saque
 
 Limite de 3 saques diários
+
 Valor máximo de R$ 500,00 por saque
+
 Não permite saque maior que o saldo disponível
+
 Não permite valores negativos ou iguais a zero
 
 💰 Depósito
 
 Valor deve ser maior que zero
+
 Não há limite diário de depósitos
 
 🧠 Conceitos Utilizados
@@ -69,7 +85,6 @@ class iteradordecontas:
 [7] Sair
 
 ▶️ Como Executar o Projeto
-
 Pré-requisitos
 
 Python 3.10 ou superior
@@ -83,13 +98,17 @@ python nome_do_arquivo.py
 📂 Estrutura de Dados
 
 Usuários: lista de dicionários
-Contas: lista de contas vinculadas a usuários
+
+Contas: lista de contas vinculadas aos usuários
+
 Histórico: string contendo o registro das transações
 
 📚 Tecnologias Utilizadas
 
 Python 3
+
 VS Code
+
 Git e GitHub
 
 👨‍💻 Autor
